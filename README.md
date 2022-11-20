@@ -12,6 +12,10 @@
 >  a new admin app based on an existing REST API
 
 ### 🏠 [Homepage](https://marmelab.com/react-admin/Tutorial.html)
+### DEMO
+![tutorial_overview](https://user-images.githubusercontent.com/11077068/202927527-a9575614-4c7b-4588-914d-fc142cd311ee.gif)
+
+
 
 ## Install
 
