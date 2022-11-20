@@ -6,6 +6,7 @@ import {
   ReferenceField,
   EditButton,
   Edit,
+  Create,
   SimpleForm,
   ReferenceInput,
   TextInput,
@@ -32,3 +33,13 @@ export const PostEdit = () => (
       </SimpleForm>
   </Edit>
 );
+
+export const PostCreate = () => (
+    <Create>
+      <SimpleForm>
+        <ReferenceInput source="userId" reference="users" />
+        <TextInput source="title" />
+        <TextInput source="body" multiline rows={5} />
+      </SimpleForm>
+    </Create>
+  );
